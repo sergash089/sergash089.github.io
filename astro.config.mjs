@@ -5,9 +5,7 @@ import icon from 'astro-icon';
 
 export default defineConfig({
   site: 'https://sergash089.github.io',
-  base: '/sergash089/',
   integrations: [react(), icon()],
-
   vite: {
     plugins: [tailwindcss()]
   }
