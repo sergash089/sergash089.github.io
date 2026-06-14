@@ -9,6 +9,7 @@ import icon from 'astro-icon';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://sergash089.github.io',
+  base: '/elite-phone/',
   integrations: [react(), icon()],
 
   vite: {
